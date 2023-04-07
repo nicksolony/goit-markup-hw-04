@@ -327,15 +327,44 @@ header {
 .team-member .desc {
     text-align: center;
 }
+.team-member-links {
+    padding-top: 8px;
+}
 
-.instagram-link {
+.social-media-link:not(:last-child) {
+    margin-right: 24px;
+}
+
+.social-media-link .link {
     background-color: var(--filter-btn-color);
     color: var(--filter-btn-bg-color);
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    border: none;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
 
 }
 
+.social-media-link .link:hover,
+.social-media-link .link:focus {
+    background-color: var(--filter-btn-bg-active-color);
+}
+
+
 .link-icon {
-    color:currentColor;
+    display: block;
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 /* footer */
