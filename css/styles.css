@@ -328,6 +328,15 @@ header {
     text-align: center;
 }
 
+.instagram-link {
+    background-color: var(--filter-btn-color);
+    color: var(--filter-btn-bg-color);
+
+}
+
+.link-icon {
+    color:currentColor;
+}
 
 /* footer */
 .footer {
