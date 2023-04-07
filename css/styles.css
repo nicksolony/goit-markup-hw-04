@@ -452,8 +452,8 @@ header {
 
 }
 
-.social-media-link .link:hover,
-.social-media-link .link:focus {
+.social-media-links .social-media-link .link:hover,
+.social-media-links .social-media-link .link:focus {
     background-color: #31D0AA;
 }
 
