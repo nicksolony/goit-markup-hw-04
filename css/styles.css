@@ -417,6 +417,57 @@ header {
     padding-bottom: 100px;
 }
 
+.footer-container {
+    display: flex;
+}
+.company-info {
+    padding-right: 120px;
+}
+
+.social-media h3{
+    color: white;
+    margin-bottom: 16px;
+}
+
+.social-media-links {
+    display: flex;
+}
+
+.social-media-links .social-media-link:not(:last-child) {
+    margin-right: 16px;
+}
+
+.social-media-links .social-media-link .link {
+    background-color: var(--filter-btn-color);
+    color: var(--filter-btn-bg-color);
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    border: none;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.social-media-link .link:hover,
+.social-media-link .link:focus {
+    background-color: #31D0AA;
+}
+
+
+.social-media-links .link-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 
 .footer .logo {
     margin-bottom: 16px;
@@ -433,6 +484,8 @@ header {
     letter-spacing: 0.02em;
     width: 264px;
 }
+
+
 
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
