@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--p-font-color);
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     
 }
 
@@ -458,12 +458,14 @@ header {
     display: flex;
 }
 .company-info {
-    padding-right: 120px;
+    margin-right: 120px;
 }
 
-.social-media h3{
+.social-media .social-header{
     color: white;
+    font-weight: 500;
     margin-bottom: 16px;
+    
 }
 
 .social-media-links {
