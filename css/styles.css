@@ -360,8 +360,11 @@ header {
     padding: 0;
     border: none;
     margin: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    /* padding-top: 12px;
+    padding-bottom: 12px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -372,12 +375,12 @@ header {
 
 
 .link-icon {
-    display: block;
+    /* display: block; */
     width: 16px;
     height: 16px;
     fill: currentColor;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     
 }
 
