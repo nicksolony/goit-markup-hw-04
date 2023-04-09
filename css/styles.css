@@ -433,7 +433,11 @@ header {
     margin-left: auto; */
     width: 104px;
     height: 56px;
-    fill: currentColor;
+    /* fill: currentColor; */
+}
+
+.customer-link svg {
+    fill: red;
 }
 
 .customer-link:hover,
