@@ -420,8 +420,11 @@ header {
     justify-content: center;
     height:100%;
     width: 100%;
+    fill: currentColor;
+    color: #8e8f99;
 
 }
+
 
 .customers-item:not(:last-child) {
     margin-right: 24px;
@@ -433,11 +436,7 @@ header {
     margin-left: auto; */
     width: 104px;
     height: 56px;
-    /* fill: currentColor; */
-}
-
-.customer-link svg {
-    fill: red;
+    
 }
 
 .customer-link:hover,
