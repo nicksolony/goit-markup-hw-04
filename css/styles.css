@@ -337,9 +337,14 @@ header {
 .team-member .desc {
     text-align: center;
 }
-.team-member-links {
-    padding-top: 8px;
+
+.team-member-info .desc {
+    margin-bottom: 8px;
 }
+
+/* .team-member-links {
+    padding-top: 8px;
+} */
 
 .social-media-link:not(:last-child) {
     margin-right: 24px;
